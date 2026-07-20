@@ -11,14 +11,12 @@ Trash after review, so anything it touches can be restored.
 
 ```sh
 brew tap olib-ai/tap
+brew trust olib-ai/tap
 brew install --cask cleanton
 ```
 
-Or in one line:
-
-```sh
-brew install --cask olib-ai/tap/cleanton
-```
+The `brew trust` step is required once per machine. Homebrew 6 refuses to load
+casks from a third-party tap until you trust it.
 
 ### Update
 
