@@ -1,6 +1,15 @@
 # Olib AI Homebrew Tap
 
-Homebrew casks for [Olib AI](https://www.olib.ai/) software.
+Homebrew formulae and casks for [Olib AI](https://www.olib.ai/) software.
+
+## Setup
+
+First add the tap and trust it (required once per machine on Homebrew 6+):
+
+```sh
+brew tap olib-ai/tap
+brew trust olib-ai/tap
+```
 
 ## Cleanton
 
@@ -10,13 +19,8 @@ Trash after review, so anything it touches can be restored.
 ### Install
 
 ```sh
-brew tap olib-ai/tap
-brew trust olib-ai/tap
 brew install --cask cleanton
 ```
-
-The `brew trust` step is required once per machine. Homebrew 6 refuses to load
-casks from a third-party tap until you trust it.
 
 ### Update
 
@@ -44,3 +48,32 @@ brew uninstall --zap --cask cleanton
 
 The app is signed and notarized with Olib AI's Developer ID, so it launches
 without Gatekeeper prompts.
+
+## llm-cleanup
+
+Remove AI-generated fingerprints from documents. Offline, deterministic, and formatting-safe.
+
+### Install
+
+**Desktop App:**
+
+```sh
+brew install --cask llm-cleanup
+```
+
+**Command-Line Tool (`aiclean`):**
+
+```sh
+brew install aiclean
+```
+
+### Update
+
+```sh
+brew upgrade --cask llm-cleanup
+brew upgrade aiclean
+```
+
+### Requirements
+
+- macOS 13 (Ventura) or later
