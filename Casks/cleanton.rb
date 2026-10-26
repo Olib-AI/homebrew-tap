@@ -1,6 +1,6 @@
 cask "cleanton" do
   version "0.3.6"
-  sha256 "7cca3942bd3bde7aaa072508d795ac9177b57ce7188acf69a7758f7b02676c1f"
+  sha256 "ab3a156e5f8519b9d9879dfc2cfb6a406b7a51949591478a37257b13532a0044"
 
   url "https://github.com/Olib-AI/cleanton/releases/download/v#{version}/cleanton-app-macos-arm64.tar.gz"
   name "Cleanton"
