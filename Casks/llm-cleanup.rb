@@ -1,9 +1,9 @@
 cask "llm-cleanup" do
-  version "0.3.0"
-  sha256 "80b912568955e79ae6a1e49a472d1e47fc3722bec09e52c47f0e8b842b393671"
+  version "0.3.1"
+  sha256 "0aed2bda9357567fff44018b72afbeae5a05f79d571f7d0275c445160cf4c46b"
 
   url "https://github.com/Olib-AI/llm-cleanup/releases/download/v#{version}/llm-cleanup-macos.zip"
-  name "llm-cleanup"
+  name "LLM Cleanup by Olib AI"
   desc "Remove AI-generated fingerprints from documents"
   homepage "https://www.olib.ai/"
 
@@ -14,5 +14,5 @@ cask "llm-cleanup" do
 
   depends_on macos: :ventura
 
-  app "llm-cleanup.app"
+  app "LLM Cleanup by Olib AI.app"
 end
