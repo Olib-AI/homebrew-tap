@@ -4,21 +4,21 @@ class Aiclean < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.4/aiclean-darwin-arm64"
-      sha256 "d2a6307bf2a00af9cc56c03ac9fcf1eb98097c278d1cade94b240ecb978043b1"
+      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.5/aiclean-darwin-arm64"
+      sha256 "1487bf3cb7003274c3b98d5ceb200afceeca392ec114813cc2edbf8f3a60427d"
     else
-      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.4/aiclean-darwin-amd64"
-      sha256 "1ca3e81154f5c1775bbe1f6f78e0dc601727c43159bacfbd63d1f4da3df94119"
+      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.5/aiclean-darwin-amd64"
+      sha256 "7ce19e01831c0970703d54a0f2a829cc84df6261e368406f1573ec0358d03871"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.4/aiclean-linux-arm64"
-      sha256 "02d64653492cee77e15b20ce06f5055838a3e0aaeb17777295691496446879fa"
+      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.5/aiclean-linux-arm64"
+      sha256 "a26fbb8f03e9eda8f1c31bd7379a702ef93170e2859fe22de4c5e83e1d38ba04"
     else
-      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.4/aiclean-linux-amd64"
-      sha256 "083ee24ba141a4c319142326f9361e9fa053275cc7fdce0d3690ea7140d1f67c"
+      url "https://github.com/Olib-AI/llm-cleanup/releases/download/v0.3.5/aiclean-linux-amd64"
+      sha256 "fe9aece9161db870318ae5a0a6cdffe3e103631c552bb205a996f4d01417b869"
     end
   end
 
