@@ -1,6 +1,6 @@
 cask "llm-cleanup" do
-  version "0.3.2"
-  sha256 "fdd726937f7d06a000f3152937388e8226ee0d6ce615c3689f6e582762e2680c"
+  version "0.3.3"
+  sha256 "4b68846be0ad9d13100d4959d0ca680431a43491585ff7468fab77211d2d49dc"
 
   url "https://github.com/Olib-AI/llm-cleanup/releases/download/v#{version}/llm-cleanup-macos.zip"
   name "LLM Cleanup by Olib AI"
